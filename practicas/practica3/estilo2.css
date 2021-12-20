@@ -1,0 +1,26 @@
+body {
+    background: url(imagenes/fondo.jpg);
+    font-weight: bold;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-size: 50px;
+    padding: 30px;
+}
+
+img {
+    width: 300px;
+}
+
+footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 600px;
+    text-align: center;
+    background-color: rgb(196, 141, 149);
+    color: rgb(255, 255, 255);
+}

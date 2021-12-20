@@ -1,0 +1,52 @@
+    body {
+        background: url(imagenes/fondo.jpg);
+        /*background-image: url(imagenes/fondo.jpg);*/
+        font-weight: bold;
+        font-size: large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .formulario {
+        text-align: justify;
+        /*background: url(imagenes/fondo.jpg);*/
+        background-color: rgb(196, 141, 149);
+        border-radius: 20px;
+        padding: 10px 10px;
+        border: 1px solid rgb(156, 103, 54);
+        margin-block: 150px;
+    }
+    
+    h1 {
+        text-align: center;
+        border-radius: 30px;
+        background-color: rgb(160, 65, 121);
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+    }
+    
+    input {
+        background-color: rgb(245, 210, 204);
+        margin: 10px;
+        padding-left: 10px;
+        border: 1px solid rgb(160, 65, 121);
+    }
+    
+    select {
+        background-color: rgb(245, 210, 204);
+        margin: 10px;
+        padding-left: 10px;
+    }
+    
+    #enviar {
+        background-color: rgb(160, 65, 121);
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        margin: 5px;
+        margin-left: 600px;
+        font-size: 20px;
+    }
+    
+    #comentario {
+        padding-bottom: 80px;
+    }

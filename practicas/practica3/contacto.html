@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="formulario">
+        <form action="gracias.html" method="GET">
+            <h1>Formulario Práctica 3</h1>
+            <!--Nombre Completo-->
+            <label for="nombre">Nombre completo:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre" pattern="[A-Za-z]{5-80}" required>
+            <br>
+            <label for="email">Correo electrónico:</label>
+            <br>
+            <!--Email (correo electronico)-->
+            <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com">
+            <br>
+            <!--Numero de telefono-->
+            <label for="telefono">Número de telefono:</label>
+            <br>
+            <input type="tel" id="telefono" name="telefono" title="solo caracteres numericos" pattern="[0-9]{7-8}" required>
+            <br>
+            <!--Fecha actual-->
+            <label for="fecha">Fecha actual:</label>
+            <br>
+            <input type="date" name="fecha" id="fecha">
+            <br>
+            <!--Tipo de usuario-->
+            <label for="usuario">Tipo de usuario:</label>
+            <br>
+            <input list="usuario" name="usuario">
+            <datalist id="usuario">
+                    <option value="Estudiante (Univeridad)">
+                    <option value="Estudiante (Colegio)">
+                    <option value="Docente (univeridad)">
+                    <option value="Profesor (colegio)">
+                    <option value="Trabajador">
+                    <option value="Egresado">
+                </datalist>
+            <br>
+            <!--Informacion de una ciudad-->
+            <label for="ciudad">Elija una ciudad:</label>
+            <br>
+            <select id="ciudad">
+                    <option value="cochabamba">Cochabamba</option>
+                    <option value="la_paz">La Paz</option>
+                    <option value="santa_cruz">Santa Cruz</option>
+                    <option value="beni">Beni</option>
+                    <option value="pando">Pando</option>
+                    <option value="oruro">Oruro</option>
+                    <option value="potosi">Potosi</option>
+                    <option value="tarija">Tarija</option>
+                    <option value="sucre">Sucre</option>
+                </select>
+            <br>
+            <!--tipo texto extendido-->
+            <label for="comentario">Información adicional o comentario:</label>
+            <br>
+            <input id="comentario" type="textarea" name="comentario" placeholder="escriba un parrafo:">
+            <br>
+            <!--label para poner texto-->
+            <label for="ciudad">Lugar de  nacimiento:</label>
+            <br>
+            <!--elemento select-->
+            <select name="ciudad" id="ciudad">
+                    <option value="cochabamba">Cochabamba</option>
+                    <option value="la_paz">La Paz</option>
+                    <option value="santa_cruz">Santa Cruz</option>
+                    <option value="beni">Beni</option>
+                    <option value="pando">Pando</option>
+                    <option value="oruro">Oruro</option>
+                    <option value="potosi">Potosi</option>
+                    <option value="tarija">Tarija</option>
+                    <option value="sucre">Sucre</option>
+                </select>
+            <br>
+            <!--tipo opciones-->
+            <label for="genero">Género:</label>
+            <br>
+            <input type="radio" name="genero" value="Hombre" id="hombre">
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="genero" value="Mujer" id="mujer">
+            <label for="mujer">Mujer</label>
+            <br>
+            <!--etiqueta checkbox-->
+            <label for="terminos">Terminos y condiciones:</label>
+            <br>
+            <input type="checkbox" name="terminos" id="terminos" required>
+            <label for="terminos">Acepto terminos y condiciónes</label>
+            <br>
+            <!--submit boton enviar-->
+            <input id="enviar" type="submit" value="Enviar Datos">
+        </form>
+    </div>
+
+</body>
+
+</html>
